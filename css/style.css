@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #07081A;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #261C51;
+}
+
+.navBox {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.photoBox {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    gap: 12px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.home {
+    color: #8CE900;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.option {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.box {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.paraghrap {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px;
+}
+
+.projectBox {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    max-width: 1040px;
+    width: 100%;
+    padding: 40px 72px;
+    display: flex;
+    justify-content: space-between;
+    background: #242642;
+    /* flex-direction: row; */
+    margin-top: 64px;
+}
+
+.complete {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plus {
+    color: #8CE900;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.complete {
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footerWrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 64px;
+}
+
+.footer {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.digitalExpirience {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 264px;
+}
+
+.photoDiv {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.desing {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.footerNav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.nav {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
